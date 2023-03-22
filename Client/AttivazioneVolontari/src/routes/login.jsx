@@ -37,6 +37,15 @@ function Login() {
         <input className="input" type="password" name='password' placeholder='password'/>
       </fieldset>
 
+      <div>
+        <form action="./home">
+          <button type="submit" className='bottone'>
+            ACCEDI
+          </button>  
+        </form> 
+      </div>
+
+
     </div>
 
     /*<div className="Login">

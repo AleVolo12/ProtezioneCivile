@@ -31,12 +31,11 @@ function Login() {
         <img className="logoPC" src={logoPC}/>
       </div>
 
-      <div className="form">
+      <fieldset className = "form">
+        <legend>Login</legend>
         <input className="input" type="text" name='nomeUtente' placeholder='username'/>
         <input className="input" type="password" name='password' placeholder='password'/>
-      </div>
-
-      
+      </fieldset>
 
     </div>
 

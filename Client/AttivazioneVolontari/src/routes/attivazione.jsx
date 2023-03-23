@@ -17,6 +17,9 @@ function Attivazione(){
       <div className="titolo">
         <Titolo nomePagina={"Segnalazione"} />
       </div>
+      <div className="top-navbar">
+        <Link to="attivazione_indicazioni">Indicazioni</Link>
+      </div>
       <div className="bottom-navbar">
         <NavBar home={img_home} attivazione={img_attivazione} account={img_group}/>
       </div>

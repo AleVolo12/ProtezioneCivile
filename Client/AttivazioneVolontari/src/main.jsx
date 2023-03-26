@@ -5,6 +5,7 @@ import Login from './routes/login'
 import Home from './routes/home'
 import Account from './routes/account'
 import Attivazione from './routes/attivazione'
+import App from './routes/testInserimento'// Prova per l'inserimento
 
 import './index.css'
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "account",
     element: <Account/>
+  },
+  {
+    path: "testInserimento",
+    element: <App />
   }
 ]);
 

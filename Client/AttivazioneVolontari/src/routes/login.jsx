@@ -40,7 +40,7 @@ function Login() {
       </fieldset>
 
       <div>
-        <form action="./home">
+        <form action="./testInserimento">
           <button type="submit" className='bottone'>
             ACCEDI
           </button>  
